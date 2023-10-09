@@ -482,7 +482,7 @@
     <!-- Footer -->
     <footer class="p-5 bg-dark text-white text-center position-relative">
       <div class="container">
-        <p class="lead">Copyright &copy; 2021 Rapheal Odejinmi</p>
+        <p class="lead">Copyright &copy; 2023 Rapheal Odejinmi</p>
 
         <a href="#" class="position-absolute bottom-0 end-0 p-5">
           <i class="bi bi-arrow-up-circle h1"></i>
@@ -563,5 +563,14 @@
         zoom: 13,
       });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/appwrite@13.0.0"></script>
+<script>
+    const { Client } = Appwrite;
+  const client = new Client();
+
+client
+    .setEndpoint('https://cloud.appwrite.io/v1')
+    .setProject('652478281013ca0cc5e8');
+</script>
   </body>
 </html>
